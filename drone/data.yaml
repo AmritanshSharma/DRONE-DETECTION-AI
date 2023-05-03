@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Drone THREAT', 'Drone', 'Drone3', 'Drone6', 'aeroplane']
+
+roboflow:
+  workspace: drone-detection-pexej
+  project: drone-detection-data-set
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/drone-detection-pexej/drone-detection-data-set/dataset/1
